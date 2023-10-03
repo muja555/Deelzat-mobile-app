@@ -1,0 +1,79 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+$RNFirebaseAnalyticsWithoutAdIdSupport = true
+
+platform :ios, '13.0'
+
+target 'Deelzat' do
+  config = use_native_modules!
+
+  use_react_native!(
+    :path => config["reactNativePath"],
+    :hermes_enabled => true
+  )
+
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
+
+
+  pod 'react-native-onesignal', :path => '../node_modules/react-native-onesignal'
+
+  pod 'ReactNativeART', :path => '../node_modules/@react-native-community/art'
+
+  pod 'react-native-cameraroll', :path => '../node_modules/@react-native-community/cameraroll'
+
+  pod 'rn-fetch-blob', :path => '../node_modules/rn-fetch-blob'
+
+  pod 'RNSentry', :path => '../node_modules/@sentry/react-native'
+
+  pod 'react-native-user-agent', :path => '../node_modules/react-native-user-agent'
+
+  pod 'RNLocalize', :path => '../node_modules/react-native-localize'
+
+  pod 'react-native-blur', :path => '../node_modules/@react-native-community/blur'
+
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-async-storage/async-storage'
+
+  target 'DeelzatTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  permissions_path = '../node_modules/react-native-permissions/ios'
+    pod 'Permission-Camera', :path => "#{permissions_path}/Camera"
+    pod 'Permission-MediaLibrary', :path => "#{permissions_path}/MediaLibrary"
+    pod 'Permission-PhotoLibrary', :path => "#{permissions_path}/PhotoLibrary"
+    pod 'react-native-image-crop-tools', :path => '../node_modules/react-native-image-crop-tools'
+    pod 'react-native-fbsdk-next', :path => '../node_modules/react-native-fbsdk-next'
+
+     # Enables Flipper.
+     #
+
+     # Note that if you have use_frameworks! enabled, Flipper will not work and
+     # you should disable these next few lines.
+     #use_flipper!({'Flipper' => '0.92.0', 'Flipper-Folly' => '2.6.7'})
+
+    post_install do |installer|
+       # react_native_post_install(installer)
+        #flipper_post_install(installer)
+
+        # To run simulator on M1 Mac
+        installer.pods_project.build_configurations.each do |config|
+             config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+        end
+    end
+end
+
+target 'Deelzat-tvOS' do
+  # Pods for Deelzat-tvOS
+
+  target 'Deelzat-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
+
+target 'OneSignalNotificationServiceExtension' do
+  pod 'OneSignal', '>= 3.0', '< 4.0'
+  pod 'Firebase/Messaging', '~> 8.15.0'
+end

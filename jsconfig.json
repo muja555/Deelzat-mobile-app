@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "assets/*": ["./assets/*"],
+        "modules/*": ["./app/modules/*"],
+        "v2modules/*": ["./app/v2modules/*"],
+        "deelzat/*": ["./app/deelzat/*"],
+        "environments/*": ["./app/environments/*"],
+        "dz-I19n": ["./app/v2modules/root/locales"],
+      }
+    },
+    "exclude": ["node_modules", "dist"]
+  }

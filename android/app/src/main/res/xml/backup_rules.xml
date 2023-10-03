@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="root" path="./data/user/0/com.deelzat.debug/lib-main/" />
+    <exclude domain="root" path="./data/data/com.deelzat.debug/lib-main/" />
+</full-backup-content>

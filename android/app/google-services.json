@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "196799824624",
+    "firebase_url": "https://deelzat-76871.firebaseio.com",
+    "project_id": "deelzat-76871",
+    "storage_bucket": "deelzat-76871.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196799824624:android:bc37805b0715085cc33835",
+        "android_client_info": {
+          "package_name": "com.deelzat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196799824624-m94gdrl0jl1erqmfpufo2ec33084lalf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deelzat",
+            "certificate_hash": "07a83703795a82a47f671e475becb9c29e8a2549"
+          }
+        },
+        {
+          "client_id": "196799824624-pv0cmmcfe6vidjincf8fdhl9rojrgli7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deelzat",
+            "certificate_hash": "d9630dc2b3c090f5fbd2d84177bf8b45f5c0aee2"
+          }
+        },
+        {
+          "client_id": "196799824624-q49heprt69ut4fp98daodjpg1s2dvs9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0PoRlxrQAH9DC3jBhfViGcHFqQCBRhXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196799824624-alu5f5vqrekogpngjalq2htmfeesjn7n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "196799824624-tgsravmpf1vdd62fk9590q70ikg2l5lj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.deelzat",
+                "app_store_id": "1521234136"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "type": "FIXED_AMOUNT",
+    "url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/coupons_list_item_backgounds%2FCOUPON_FIXED-min.jpg?alt=media&token=b74ebfa3-763c-4dcb-bcdd-f0bb24cf28c6"
+  },
+  {
+    "type": "PERCENTAGE_DISCOUNT",
+    "url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/coupons_list_item_backgounds%2FCOUPON_PERCENT-min.jpg?alt=media&token=705f02e8-9562-48b8-aafd-cdeb3676a7a4"
+  },
+  {
+    "type": "FREE_DELIVERY",
+    "url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/coupons_list_item_backgounds%2FCOUPON_DELIVERY-min.jpg?alt=media&token=ab7e6b73-0658-48a8-ba8d-89c2f2df8021"
+  },
+  {
+    "type": "PERCENTAGE_DISCOUNT_WITH_FREE_DELIVERY",
+    "url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/coupons_list_item_backgounds%2FCOUPON_PERCENT_DELIVERY-min.jpg?alt=media&token=5e4ddcaa-5afd-4dd3-ab9f-6503d587cc44"
+  },
+  {
+    "type": "FIXED_AMOUNT_WITH_FREE_DELIVERY",
+    "url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/coupons_list_item_backgounds%2FCOUPON_FIXED_DELIVERY-min.jpg?alt=media&token=84330d1a-24ef-4d99-acc2-1b36b4f71f15"
+  }
+]

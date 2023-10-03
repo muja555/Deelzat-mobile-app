@@ -1,0 +1,86 @@
+[
+  {
+    "id": "theme1",
+    "background_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme1%2Ftheme1.jpg?alt=media&token=896a2d26-05c2-4e2f-aa63-77c4bff01254",
+    "color1": "#FF7B59",
+    "color2": "#FF7B59",
+    "preview_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme1%2FprevC1.jpg?alt=media&token=dbb467bb-30dd-45c3-ba2d-feddcfa5645c"
+  },
+  {
+    "id": "theme2",
+    "background_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme2%2Ftheme2.jpg?alt=media&token=26dde3ff-397f-4694-9e74-c5c1e83f685f",
+    "color1": "#2E8BCA",
+    "color2": "#2E8BCA",
+    "preview_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme2%2FprevC2.jpg?alt=media&token=e24709c6-b478-4813-9e42-d0b89f7991c9"
+  },
+  {
+    "id": "theme3",
+    "background_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme3%2Ftheme3.jpg?alt=media&token=0e40e7e1-74a8-4803-94ee-17bcc8be3918",
+    "color1": "#00A698",
+    "color2": "#FFFFFF",
+    "preview_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme3%2FprevC3.jpg?alt=media&token=53c1dcdb-2af5-439e-bf78-5eeb83f75a33"
+  },
+  {
+    "id": "theme4",
+    "background_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme4%2Ftheme4.jpg?alt=media&token=f2dcc520-158f-4e61-a8d3-91775c1d7bc1",
+    "color1": "#593290",
+    "color2": "#FFFFFF",
+    "preview_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme4%2FprevC4.jpg?alt=media&token=78952e28-f42e-41b5-a613-0479b8051cb0"
+  },
+  {
+    "id": "theme5",
+    "background_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme5%2Ftheme5.png?alt=media&token=d47a9f5a-75d8-4cf9-a03a-3407a2a21e0c",
+    "color1": "#2190F3",
+    "color2": "#FFFFFF",
+    "preview_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme5%2FprevC5.jpg?alt=media&token=792213e4-cea1-417c-b976-6eec6730b62d"
+  },
+  {
+    "id": "theme6",
+    "background_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme6%2Ftheme6.jpg?alt=media&token=7f661e15-b970-46d5-b9fc-1e343c70dafc",
+    "color1": "#94DBF6",
+    "color2": "#FFFFFF",
+    "preview_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme6%2FprevC6.jpg?alt=media&token=fb15f033-51fb-4fb5-a274-bdf6b8558e1d"
+  },
+  {
+    "id": "theme7",
+    "background_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme7%2Ftheme7.jpg?alt=media&token=eb99ac0f-7354-47e7-a383-b7ca457644d1",
+    "color1": "#2E8BCA",
+    "color2": "#FFFFFF",
+    "preview_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme7%2FprevC7.jpg?alt=media&token=2867925c-7053-4a8e-9239-cc99aa994e6e"
+  },
+  {
+    "id": "theme8",
+    "background_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme8%2Ftheme8.jpg?alt=media&token=0a51e44f-820b-4096-a66f-7ebe5938a063",
+    "color1": "#FFBA28",
+    "color2": "#FFFFFF",
+    "preview_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme8%2FprevC8.jpg?alt=media&token=91db6bab-2e33-4932-9b5b-34cf2d63f42a"
+  },
+  {
+    "id": "theme9",
+    "background_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme9%2Ftheme9.jpg?alt=media&token=6336c339-d51e-4d53-a06e-90c7b188a49f",
+    "color1": "#FF55CE",
+    "color2": "#FFFFFF",
+    "preview_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme9%2FprevC9.jpg?alt=media&token=26c6af0d-a375-4a1a-a7b0-abdc41c54da4"
+  },
+  {
+    "id": "theme10",
+    "background_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme10%2Ftheme10.jpg?alt=media&token=8d3c1b62-49f2-415b-9cea-6420cee12294",
+    "color1": "#8322FF",
+    "color2": "#FFFFFF",
+    "preview_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme10%2FprevC10.jpg?alt=media&token=c3a2d8ff-be43-448c-aa13-28a98fc702d5"
+  },
+  {
+    "id": "theme11",
+    "background_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme11%2Ftheme11.jpg?alt=media&token=fd401d76-b957-4377-899b-c69d3197e59e",
+    "color1": "#E52218",
+    "color2": "#FFFFFF",
+    "preview_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme11%2FprevC11.jpg?alt=media&token=eb3072b9-cce0-4aae-be0d-7e829735312a"
+  },
+  {
+    "id": "theme12",
+    "background_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme12%2Ftheme12.jpg?alt=media&token=24f2f567-cfdc-4967-8eb1-d8e5c3f5f549",
+    "color1": "#000000",
+    "color2": "#FFFFFF",
+    "preview_url": "https://firebasestorage.googleapis.com/v0/b/deelzat-76871.appspot.com/o/themes%2Ftheme12%2FprevC12.jpg?alt=media&token=9886978a-3baf-4902-a8c9-b2db902da522"
+  }
+]

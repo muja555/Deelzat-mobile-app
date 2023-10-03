@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Camera Button</title>
+    <g id="Camera-Button" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-17" transform="translate(4.000000, 4.000000)">
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="2" cx="32" cy="32" r="31"></circle>
+            <circle id="Oval-Copy" fill="#FFFFFF" cx="32" cy="32" r="28"></circle>
+        </g>
+    </g>
+</svg>

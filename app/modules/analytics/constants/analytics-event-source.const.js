@@ -1,0 +1,35 @@
+const EVENT_SOURCE = {}
+
+EVENT_SOURCE.COLLECTION = 'collection';
+EVENT_SOURCE.SEARCH = 'search';
+EVENT_SOURCE.TRENDING = 'trending';
+EVENT_SOURCE.FEED = 'feed';
+EVENT_SOURCE.STORIES = 'stories';
+EVENT_SOURCE.RECOMMENDED = 'recommended';
+EVENT_SOURCE.DEEPLINK = 'deeplink';
+EVENT_SOURCE.PUSH_NOTIFICATION = 'push_notification';
+EVENT_SOURCE.IN_APP_MESSAGE = 'in_app_message';
+EVENT_SOURCE.BROWSE = 'browse';
+EVENT_SOURCE.BANNER = 'banner';
+EVENT_SOURCE.ACTIVITY = 'activity';
+EVENT_SOURCE.SHOP = 'shop';
+EVENT_SOURCE.MY_SHOP = 'my_shop';
+EVENT_SOURCE.SHOPS = 'shops';
+EVENT_SOURCE.CART = 'cart';
+EVENT_SOURCE.FAVOURITES = 'favourites';
+EVENT_SOURCE.MY_ORDERS = 'my_orders';
+EVENT_SOURCE.SHOP_ORDERS = 'shop_orders';
+EVENT_SOURCE.PRODUCT_SCREEN = 'product_details';
+EVENT_SOURCE.MAIN_TABS_BUTTON = 'main_tabs_button';
+EVENT_SOURCE.POST_PRODUCT = 'post_product';
+EVENT_SOURCE.FOLLOWING_LIST = 'following_list';
+EVENT_SOURCE.INBOX = 'inbox';
+EVENT_SOURCE.CHAT_ROOM = 'chat_room';
+EVENT_SOURCE.CHECKOUT = 'checkout';
+EVENT_SOURCE.BUNDLE = 'bundle';
+EVENT_SOURCE.CATEGORIES_LIST = 'categories_list';
+EVENT_SOURCE.DISCOUNTS_SECTION = 'discounts_section';
+EVENT_SOURCE.NEWLY_ADDED_SECTION = 'newly_added_section';
+
+Object.freeze(EVENT_SOURCE);
+export default EVENT_SOURCE

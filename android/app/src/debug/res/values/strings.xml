@@ -1,0 +1,4 @@
+<resources>
+    <string name="FB_AutoInit">false</string>
+    <string name="FB_AutoLogAppEventsEnabled">false</string>
+</resources>

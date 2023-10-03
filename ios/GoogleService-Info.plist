@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>196799824624-tgsravmpf1vdd62fk9590q70ikg2l5lj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.196799824624-tgsravmpf1vdd62fk9590q70ikg2l5lj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDQPKrrjZej5EHfgjMIvcMyel9GJKQoXXc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>196799824624</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.deelzat</string>
+	<key>PROJECT_ID</key>
+	<string>deelzat-76871</string>
+	<key>STORAGE_BUCKET</key>
+	<string>deelzat-76871.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:196799824624:ios:8b4d4ded216c41d4c33835</string>
+	<key>DATABASE_URL</key>
+	<string>https://deelzat-76871.firebaseio.com</string>
+</dict>
+</plist>

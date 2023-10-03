@@ -1,0 +1,33 @@
+const MainStackNavsConst = {};
+
+MainStackNavsConst.HOME_TABS = 'HOME_TABS';
+MainStackNavsConst.ON_BOARDING = 'ON_BOARDING';
+MainStackNavsConst.SEARCH = 'SEARCH';
+MainStackNavsConst.CATEGORIES = 'CATEGORIES';
+MainStackNavsConst.PRODUCT_LIST = 'PRODUCT_LIST';
+MainStackNavsConst.PRODUCT_FILTERS = 'PRODUCT_FILTERS';
+MainStackNavsConst.PRODUCT_DETAILS = 'PRODUCT_DETAILS';
+MainStackNavsConst.OTHER_PROFILE = 'OTHER_PROFILE';
+MainStackNavsConst.ADD_PRODUCT = 'ADD_PRODUCT';
+MainStackNavsConst.SECRET_SETTINGS = 'SECRET_SETTINGS';
+MainStackNavsConst.PRODUCT_UPDATE = "PRODUCT_UPDATE";
+MainStackNavsConst.IMAGE_GALLERY = "IMAGE_GALLERY";
+MainStackNavsConst.EDIT_PROFILE = "EDIT_PROFILE";
+MainStackNavsConst.CHAT_ROOM = "CHAT_ROOM";
+MainStackNavsConst.INBOX = "INBOX";
+MainStackNavsConst.CHECKOUT = "CHECKOUT";
+MainStackNavsConst.BLOCKED_USERS = "BLOCKED_USERS";
+MainStackNavsConst.SAVED_PRODUCTS = "SAVED";
+MainStackNavsConst.SALES = "SALES";
+MainStackNavsConst.ORDERS = "ORDERS";
+MainStackNavsConst.ORDER_DETAILS = "ORDER_DETAILS";
+MainStackNavsConst.SETTINGS = "SETTINGS";
+MainStackNavsConst.INFO = "INFO";
+MainStackNavsConst.CHAT_IMAGES_PICKER = 'MAIN.CHAT_IMAGES_PICKER';
+MainStackNavsConst.FOLLOWERS_LIST = 'MAIN.FOLLOWERS_LIST';
+MainStackNavsConst.SAVED_ADDRESSES = "SAVED_ADDRESSES";
+MainStackNavsConst.ADD_ADDRESS = "ADD_ADDRESS";
+MainStackNavsConst.COUPONS_LIST = "COUPONS_LIST";
+
+Object.freeze(MainStackNavsConst);
+export default MainStackNavsConst;

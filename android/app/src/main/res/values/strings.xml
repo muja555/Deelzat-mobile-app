@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Deelzat</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">Y2f4kyE-4L3U3IfCB74VZ2gMMBZ8_cB-4JW7B</string>
+    <string name="facebook_app_id">400215267615313</string>
+    <string name="FB_AutoInit">true</string>
+    <string name="FB_AutoLogAppEventsEnabled">true</string>
+    <string name="facebook_client_token">9fe972df0ec28434a5d5342eb2b1a87e</string>
+</resources>

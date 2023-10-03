@@ -1,0 +1,98 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.deelzat"
+          xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+<!--RUNNING DETOX-->
+<!--    <uses-sdk android:minSdkVersion="21" />-->
+<!--    android:networkSecurityConfig="@xml/network_security_config"-->
+    <application
+            android:name=".MainApplication"
+            android:label="@string/app_name"
+            android:requestLegacyExternalStorage="true"
+            android:icon="@mipmap/ic_launcher"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:allowBackup="false"
+            android:largeHeap="true"
+            android:usesCleartextTraffic="true"
+            android:installLocation="auto"
+            android:launchMode="singleTask"
+            android:fullBackupContent="@xml/backup_rules"
+            android:theme="@style/AppTheme">
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon"
+                   android:resource="@mipmap/launch_screen"/>
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+                   android:value="@string/facebook_app_id"/>
+        <meta-data android:name="com.facebook.sdk.ClientToken"
+                   android:value="@string/facebook_client_token"/>
+        <meta-data android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+                   android:value="@string/FB_AutoInit"/>
+        <meta-data android:name="com.facebook.sdk.AutoInitEnabled"
+                   android:value="@string/FB_AutoLogAppEventsEnabled"/>
+        <provider android:authorities="com.facebook.app.FacebookContentProvider400215267615313"
+                  android:name="com.facebook.FacebookContentProvider"
+                  android:exported="true" />
+
+
+        <activity
+                android:name=".MainActivity"
+                android:label="@string/app_name"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+                android:launchMode="singleTask"
+                android:exported="true"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="deelzat.page.link" android:scheme="http"/>
+                <data android:host="deelzat.page.link" android:scheme="https"/>
+            </intent-filter>
+
+            <!-- Branch URI Scheme -->
+            <intent-filter>
+                <data android:scheme="deelzat" android:host="open" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+
+            <!-- Branch App Links -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" android:host="deelzat.com" />
+            </intent-filter>
+
+
+        </activity>
+        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity"/>
+        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:exported="true"
+                  android:name="io.invertase.firebase.notifications.RNFirebaseNotificationsRebootReceiver"/>
+
+        <!-- Branch keys -->
+        <!-- (Omit if setting keys in branch.json) -->
+        <meta-data android:name="io.branch.sdk.BranchKey" android:value="key_live_gj4jKyKfsh93su4TjwxG7moeErct4t4O"/>
+        <meta-data android:name="io.branch.sdk.BranchKey.test" android:value="secret_live_8pjMCjwKW2hQBNOqJwibNn4T9noAR3eR"/>
+
+
+    </application>
+
+</manifest>

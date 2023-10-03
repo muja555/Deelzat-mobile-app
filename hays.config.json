@@ -1,0 +1,13 @@
+{
+  "react": {
+    "type": "react-native",
+    "store": {
+      "type": "react-redux"
+    },
+    "variables" : {
+      "core-path": "deelzat",
+      "http-class-name": "Http",
+      "input-class-name": "HrcInput"
+    }
+  }
+}
