@@ -1,4 +1,4 @@
-# Deelzat-mobile-app-showcase (React Native)
+# Deelzat-mobile-app (React Native)
 
 A backup file for Deelzat mobile app that I worked in (from 2020 to 2022)
 
